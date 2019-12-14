@@ -1,0 +1,251 @@
+*{
+    padding :0%;
+    margin: 0%;
+}
+
+.navbar{
+    padding: 7px 0;
+}
+
+.logo{
+    height: 40px;
+}
+.link{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.text{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.container{
+    padding: 0 190px;
+}
+.container-items{
+    display: flex;
+    justify-content: space-between;
+}
+/* .menu-items{
+    align-self: center;
+} */
+.text-container{
+    display: flex;
+    height: 100px;
+}
+.text-div{
+    width: 100%;
+}
+#first-div {
+    background-color: whitesmoke;
+}
+#second-div{
+    background-color: #eaeaea;
+}
+#third-div{
+    background-color: whitesmoke;
+}
+.first-p  {
+    color:gray;
+    font-size: 20px;
+    padding: 22px 66px;
+    text-align: center;
+}
+.second-p{
+    color: #777;
+    font-size: 25px;
+    padding: 22px 32px;
+    
+}
+.third-p{
+    color:gray;
+    font-size: 20px;
+    padding: 22px 66px;
+    text-align: center;
+}
+.heading p{
+   text-align: center;
+    line-height: 2.4;
+    font-size: 34px;
+    color: #111;
+}
+hr{
+    max-width: 50px;
+    border:3px solid #f05f40;
+    border-width: 3px;
+    margin-left: 48%;
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+.mt-70{
+    margin-top: 120px; 
+}
+.photo-container{
+    padding: 0 30px;
+    
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    height: 190px;
+    border-radius: 45% 10%;
+
+}
+
+.photo img:hover{
+    border: 3px solid red;
+    border-radius: 50%;
+
+     
+} 
+
+.content{
+    text-align: center;
+    position: relative;
+}
+.content h1{
+    font-size: 24px;
+    color: #333;
+    margin: 20px 0 0;
+    font-weight: normal;
+    
+}
+.content span{
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 17px;
+    
+  
+}
+.disc{
+    font-size: 18px;
+    color: gray;
+}
+.social-side{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: -83px;
+    padding-top: 2px;
+    padding-left: 0;
+    list-style: none;
+    background: #f05f40;
+   
+}
+
+.social-side li a{
+    width: 35px;
+    height: 35px;
+    line-height: 45px;
+    color: #fff;
+}
+.social-side-surabhi{
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: -83px;
+    padding-top: 2px;
+    padding-left: 0;
+    background: #f05f40;
+    list-style: none;
+   
+}
+.social-side-surabhi li a{
+    width: 35px;
+    height: 35px;
+    line-height: 45px;
+    color: #fff;
+}
+.social-side:hover{
+    height: 45px;
+}
+.social-side-surabhi:hover{
+    height: 45px;
+}
+.photo-content{
+    margin-right: 986px ;
+}
+
+
+@media only screen and (max-width: 667px){
+    .container{
+        padding: 0 50px;
+    }
+    .logo{
+        padding:0  10px;
+        text-align: center;
+        
+    }
+    .link{
+         padding: 33px;
+       
+    }
+    .container-items{
+        flex-direction: column;
+
+
+    }
+    .menu-items{
+        flex-direction: column;
+        width:70px; 
+        text-align: center;
+        padding-left: 50px;
+    }
+    .link{
+        flex-direction: column;
+    }
+    .text-container{
+        flex-direction: column;
+       
+    }
+    .text{
+        text-align: center!important;
+    }
+    .alumni{
+        padding: 234px 0;
+        flex-direction: column;
+    }
+    hr{
+        margin-left: 159px;
+    }
+    .photo-container{
+        padding:60px;
+        
+    }
+
+    .mt-70{
+        margin-top: 3px ;
+    }
+    
+    .anu{
+        margin-top: 60px;
+    }
+    .photo-content{
+        margin-right: 25px ;
+    }
+    .discre{
+        font-size: 18px;
+        color: gray;
+        padding: 0 60px;
+    }
+    .disc{
+        padding: 0 66px;
+    }
+   
+    .prof{
+        margin: 52px;
+        width: 250px;
+        bottom: -93px;
+    }
+    .image-container img{
+        height: 162px;
+    }
+}
+
